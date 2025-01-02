@@ -20,6 +20,9 @@ export default function Home() {
 					<Link href="/experiments/ex2" className="hover:underline">
 						Experiment 2
 					</Link>
+					<Link href="/experiments/ex3" className="hover:underline">
+						Experiment 3
+					</Link>
 				</nav>
 				<ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
 					<li className="mb-2">

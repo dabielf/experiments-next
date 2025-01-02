@@ -14,7 +14,7 @@ import {
 
 export default function Experiment2() {
 	return (
-		<div className="bg-zing-950">
+		<div className="bg-zinc-950">
 			<Lenis root options={{ lerp: 0.05 }}>
 				<Nav />
 				<Hero />
