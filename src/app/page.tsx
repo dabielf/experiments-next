@@ -14,10 +14,10 @@ export default function Home() {
 					priority
 				/>
 				<nav className="flex gap-4">
-					<Link href="/ex1" className="hover:underline">
+					<Link href="/experiments/ex1" className="hover:underline">
 						Experiment 1
 					</Link>
-					<Link href="/ex2" className="hover:underline">
+					<Link href="/experiments/ex2" className="hover:underline">
 						Experiment 2
 					</Link>
 				</nav>
