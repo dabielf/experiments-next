@@ -6,9 +6,9 @@ import { motion } from "motion/react";
 
 export default function Experiment1() {
 	return (
-		<div className="min-h-screen flex flex-col items-center justify-center p-8">
+		<div className="min-h-screen flex flex-col items-center justify-center p-8 bg-zinc-950">
 			<motion.div
-				className="text-3xl font-bold mb-6"
+				className="text-3xl font-bold mb-6 text-white"
 				initial={{ y: -20, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.6, ease: "easeOut" }}

@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import Link from "next/link";
 import { Lenis } from "lenis/react";
 import { SiSpacex } from "react-icons/si";
-import { FaArrowRight, FaMapPin } from "react-icons/fa";
+import { FaArrowDown, FaArrowRight, FaMapPin } from "react-icons/fa";
 import {
 	motion,
 	useScroll,
@@ -50,6 +50,9 @@ function Hero() {
 			className="w-full relative"
 			style={{ height: `calc(${SECTION_HEIGHT}px + 100vh)` }}
 		>
+			<div className="absolute top-[100px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-zinc-400 flex gap-2 items-center justify-center">
+				SCROLL ME <FaArrowDown />
+			</div>
 			<CenterImage />
 			<ParallaxImages />
 			<div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-b from-zinc-950/0 to-zinc-950" />
