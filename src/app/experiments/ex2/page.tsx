@@ -27,7 +27,9 @@ export default function Experiment2() {
 function Nav() {
 	return (
 		<nav className="fixed left-0 top-0 right-0 z-50 flex items-center justify-between px-6 py-3 text-white">
-			<SiSpacex className="text-3xl" />
+			<a href="/">
+				<SiSpacex className="text-3xl" />
+			</a>
 			<button
 				onClick={() => {
 					document.getElementById("launch-schedule")?.scrollIntoView({
@@ -50,7 +52,7 @@ function Hero() {
 			className="w-full relative"
 			style={{ height: `calc(${SECTION_HEIGHT}px + 100vh)` }}
 		>
-			<div className="absolute top-[100px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-zinc-400 flex gap-2 items-center justify-center">
+			<div className="absolute top-[100px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl text-zinc-400 flex gap-2 items-center justify-center font-semibold">
 				SCROLL ME <FaArrowDown />
 			</div>
 			<CenterImage />
