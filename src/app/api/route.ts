@@ -11,10 +11,6 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(request: Request) {
 	const { message } = await request.json();
-	console.log({
-		user: process.env.EMAIL_USER,
-		pass: process.env.EMAIL_PASSWORD,
-	});
 
 	if (!message) {
 		return NextResponse.json({ error: "Message is required" }, { status: 400 });
