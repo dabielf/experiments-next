@@ -13,11 +13,11 @@
 		line-height: 66px;
 		cursor: default;
 
-		p {
+		.text {
 			width: 1000px;
 			padding: 40px;
 		}
-		span {
+		.emphasis {
 			color: #ec4e39;
 		}
 	}

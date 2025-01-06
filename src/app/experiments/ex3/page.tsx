@@ -35,15 +35,20 @@ export default function Home() {
 						setIsHovered(false);
 					}}
 				>
-					A visual designer - with skills that haven't been replaced by A.I
-					(yet) - making good shit only if the paycheck is equally good.
+					<div className={styles.text}>
+						A visual designer - with skills that haven't been replaced by A.I
+						(yet) - making good shit only if the paycheck is equally good.
+					</div>
 				</p>
 			</motion.div>
 
 			<div className={styles.body}>
 				<p className={poppins.className}>
-					I'm a <span>selectively skilled</span> product designer with strong
-					focus on producing high quality & impactful digital experience.
+					<div className={styles.text}>
+						I'm a <span className={styles.emphasis}>selectively skilled</span>{" "}
+						product designer with strong focus on producing high quality &
+						impactful digital experience.
+					</div>
 				</p>
 			</div>
 		</main>
